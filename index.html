@@ -33,7 +33,7 @@
       font-weight: bold;
       color: #e67e22;
     }
-    .speciality {
+    .speciality, .delivery {
       font-size: 14px;
       color: #555;
       margin-top: 3px;
@@ -60,30 +60,42 @@
     a:hover {
       color: #1abc9c;
     }
-    .icon {
-      margin-right: 6px;
-    }
   </style>
 </head>
 <body>
   <h1>Indian Restaurants – Bukit Bintang</h1>
 
+  <!-- Delivery Restaurants on Top -->
   <!-- 1 -->
   <div class="card">
     <div class="name">Indian Empire Restaurant</div>
     <div class="speciality">North Indian, South Indian, Biryani, Curries</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.8</div>
     <div class="address">No. 18, Jalan Bukit Bintang, Kuala Lumpur</div>
+    <div class="delivery">🚚 Delivery / 🛍️ Takeaway: Delivery</div>
     <a href="tel:+60321100505">📞 Call: +60 3-2110 0505</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Indian%20Empire%20Restaurant%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
 
+  <!-- 6 -->
+  <div class="card">
+    <div class="name">Indian Salt Restaurant</div>
+    <div class="speciality"> </div>
+    <div class="rating">⭐️⭐️⭐️⭐️☆ 4.1</div>
+    <div class="address">Lot 1.11, Plaza Berjaya, Jalan Imbi Road, Bukit Bintang</div>
+    <div class="delivery">🛍️ Takeaway Only</div>
+    <a href="tel:+60321104721">📞 Call: +60 3-2110 4721</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Indian%20Salt%20Restaurant%20Bukit%20Bintang%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
+  </div>
+
+  <!-- Other Restaurants -->
   <!-- 2 -->
   <div class="card">
     <div class="name">Spice Garden</div>
     <div class="speciality">Vegetarian Dishes, Meat Curries, South Indian Breakfast</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.5</div>
     <div class="address">No 2, Jalan Delima, Off Bukit Bintang</div>
+    <div class="delivery">NA</div>
     <a href="tel:+60126845639">📞 Call: +60 12-684 5639</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Spice%20Garden%20Bukit%20Bintang%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
@@ -94,6 +106,7 @@
     <div class="speciality">North Indian, Pakistani, Biryani, Curries</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.0</div>
     <div class="address">No 13, Jalan Berangan, Bukit Bintang, Kuala Lumpur</div>
+    <div class="delivery">NA</div>
     <a href="tel:+60103625786">📞 Call: +60 10-362 5786</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Nawabs%20Restaurant%20Bukit%20Bintang%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
@@ -104,6 +117,7 @@
     <div class="speciality">North Indian, Tandoori, Curries</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.2</div>
     <div class="address">Pavilion Mall, 168 Jalan Bukit Bintang, Kuala Lumpur</div>
+    <div class="delivery">NA</div>
     <a href="tel:+60321433669">📞 Call: +60 3-2143 3669</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Spice%20of%20India%20Pavilion%20KL%20Bukit%20Bintang" target="_blank">📍 Open in Google Maps</a>
   </div>
@@ -114,18 +128,9 @@
     <div class="speciality">North Indian, Curries</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.0</div>
     <div class="address">41 & 43 Jalan Sultan Ismail, Kuala Lumpur</div>
+    <div class="delivery">NA</div>
     <a href="tel:+60321100500">📞 Call: +60 3-2110 0500</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Indian%20Kitchen%20Bukit%20Bintang%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
-  </div>
-
-  <!-- 6 -->
-  <div class="card">
-    <div class="name">Indian Salt Restaurant</div>
-    <div class="speciality"> </div>
-    <div class="rating">⭐️⭐️⭐️⭐️☆ 4.1</div>
-    <div class="address">Lot 1.11, Plaza Berjaya, Jalan Imbi Road, Bukit Bintang</div>
-    <a href="tel:+60321104721">📞 Call: +60 3-2110 4721</a>
-    <a href="https://www.google.com/maps/search/?api=1&query=Indian%20Salt%20Restaurant%20Bukit%20Bintang%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
 
   <!-- 7 -->
@@ -134,6 +139,7 @@
     <div class="speciality">North Indian, Curries, Tandoori</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.0</div>
     <div class="address">Pavilion / Jalan Bukit Bintang, Kuala Lumpur</div>
+    <div class="delivery">NA</div>
     <a href="tel:+60321433669">📞 Call: +60 3-2143 3669</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Royal%20India%20Restaurant%20Bukit%20Bintang%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
@@ -144,6 +150,7 @@
     <div class="speciality">North Indian, Curries</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.0</div>
     <div class="address">Near Bukit Bintang area, Kuala Lumpur</div>
+    <div class="delivery">NA</div>
     <a href="tel:+60321717220">📞 Call: +60 3-2171 7220</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Bombay%20Palace%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
@@ -154,7 +161,8 @@
     <div class="speciality"> </div>
     <div class="rating">⭐️⭐️⭐️☆ 3.9</div>
     <div class="address">KL City area</div>
-    <a href="#">📞 Call</a>
+    <div class="delivery">NA</div>
+    <a href="#">📞 Call: NA</a>
     <a href="https://www.google.com/maps/search/?api=1&query=Makan%20Kitchen%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
 
@@ -164,7 +172,8 @@
     <div class="speciality">South Indian, Dosas, Curries</div>
     <div class="rating">⭐️⭐️⭐️⭐️☆ 4.0</div>
     <div class="address">KL area</div>
-    <a href="#">📞 Call</a>
+    <div class="delivery">NA</div>
+    <a href="#">📞 Call: NA</a>
     <a href="https://www.google.com/maps/search/?api=1&query=MTR%20Malaysia%20Kuala%20Lumpur" target="_blank">📍 Open in Google Maps</a>
   </div>
 
